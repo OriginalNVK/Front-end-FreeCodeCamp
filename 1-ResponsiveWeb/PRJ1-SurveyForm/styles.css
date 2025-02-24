@@ -2,7 +2,7 @@ body {
 	width: 100%;
 	height: 100vh;
 	margin: 0;
-	background-color: #344b7b;
+	background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
 	color: #ffffff;
 	font-family: Segoe Ui;
 	font-size: 18px;
@@ -22,7 +22,7 @@ form {
 
 fieldset {
 	padding: 1rem 0;
-	border: 5px solid #8ca4b4;
+	border: 5px solid #1d92df;
 }
 
 label {
@@ -74,6 +74,7 @@ input[type="submit"] {
 	margin: 1.5em auto;
 	font-size: 1.2rem;
 	font-weight: bold;
-	background-color: #8ca4b4;
+	background-color: #7891a2;
 	color: #344b7b;
+	border-radius: 5px;
 }

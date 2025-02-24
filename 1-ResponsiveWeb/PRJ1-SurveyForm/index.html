@@ -3,25 +3,29 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Original NVK Survey Form</title>
+    <title>NVK Survey Form</title>
     <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
     <h1 id="title">
-      Biểu mẫu của Original NVK
+      Biểu mẫu của Văn Khánh
     </h1>
     <p id="description">
-      <i>Biểu mẫu khảo sát để lấy thông tin trải nghiệm môn học của sinh viên</i>
+      <i>Biểu mẫu khảo sát trải nghiệm môn học của sinh viên</i>
     </p>
-    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+    <form id="survey-form" method="post" action="https://demo-register.freecodecamp.org">
       <fieldset>
         <label id="name-label" for="name">
           <b>HỌ VÀ TÊN (*)</b>
-          <input id="name" name="name" type="text" placeholder="VD: eNKay" required/>
+          <input id="name" name="name" type="text" placeholder="VD: Nguyen Van A" required/>
         </label>
+        <label id="mssv-label" for="mssv">
+          <b>MÃ SỐ SINH VIÊN (*)</b>
+          <input id="mssv" name="mssv" type="text" placeholder="VD: 22120158" required/>
+        </label>  
         <label id="email-label" for="email">
           <b>ĐỊA CHỈ EMAIL (*)</b>
-          <input id="email" name="email" type="email" placeholder="VD: enkay@gmail.com" required/>
+          <input id="email" name="email" type="email" placeholder="VD: anv@gmail.com" required/>
         </label>
         <label id="number-label" for="number">
           <b>KHÓA TUYỂN</b>
@@ -34,13 +38,15 @@
             <option value="KTLT">Kỹ thuật lập trình</option>
             <option value="DSA">Cấu trúc dữ liệu và giải thuật</option>
             <option value="OOP">Lập trình hướng đối tượng</option>
+            <option value="MMT">Mạng máy tính</option>
+            <option value="IS">Cơ sở dữ liệu</option>
           </select>
         </label>
         <label class="state">
           <b>TÌNH TRẠNG MÔN HỌC (*)</b>
           <label for="passed">
             <input type="radio" id="passed" name="state" class="inline" value="passed" checked/>
-            Đã vượt qua
+            Đã qua môn
          </label>
           <label for="non-passed">
            <input type="radio" id="non-passed" name="state" class="inline" value="non-passed"/>
@@ -68,7 +74,7 @@
         </label>
         <label> 
           <b>KẾ HOẠCH NGHỀ NGHIỆP</b>
-          <textarea id="plan" name="plan" rows="5" placehold="Hãy trình bày kế hoạch tương lai để đạt được công việc yêu thích của bạn"></textarea>
+          <textarea id="plan" name="plan" rows="5" placeholder="Hãy trình bày kế hoạch tương lai để đạt được công việc yêu thích của bạn"></textarea>
           <input type="submit" id="submit" value="Submit"/>
         </label>
       </fieldset>
