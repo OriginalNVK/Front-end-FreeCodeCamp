@@ -12,7 +12,7 @@ main {
 
 header {
 	width: 100%;
-	background-color: #dc8c8c;
+	background-color: #df9999;
 	color: #fae9df;
 	border-radius: 20px;
 	text-align: center;
@@ -36,11 +36,13 @@ figure {
 	padding-top: 10px;
 }
 
-#image {
+#featured-image {
 	display: block;
 	margin: 10px auto;
+	width: 250px;
+	height: 250px;
 	max-width: 100%;
-	border-radius: 50px 100px;
+	border-radius: 5px;
 	filter: blur(0.5px);
 	box-shadow: 0 0 10px 2px #dc8c8c;
 }
