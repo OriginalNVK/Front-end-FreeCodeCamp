@@ -1,119 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./styles.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <title>eNKay Service Page</title>
-  </head>
-  <body>
+    <title>Original NVK Company</title>
+</head>
+<body>
     <section id="heading">
-      <header id="header">
-        <div class="header-logo">
-          <img id="header-img" src="https://i.ibb.co/fkXdssH/logo.png" alt="eNkay logo"/>
-          <h1>Company</h1>
-        </div>
-        <div class="header-nav">
-          <nav id="nav-bar">
-            <a class="nav-link" href="#service">Dịch vụ</a>
-            <a class="nav-link" href="#how-to-work">Hoạt động thế nào?</a>
-            <a class="nav-link" href="#pricing">Giá cả</a>
-          </nav>
-        </div>
-      </header>
+        <header id="header">
+            <div>
+                <h1>Original NVK</h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#service">Dịch vụ</a></li>
+                <li><a href="#detail">Chi tiết</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
     </section>
+    <div class="hero-page">
+        <img src="./image.jpg" alt="Original NVK logo" class="iamge-introduce">
+        <div class="introduce">
+            <h1 class="logo">Original NVK Company</h1>
+            <p class="slogan">Uy tín tạo niềm tin</p>
+        </div> 
+    </div>
     <section id="register">
-      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
-        <label id="register-label" for="email">
-          <h2>Đăng ký dịch vụ eNKay ngay nào!</h2>
-          <input id="email" name="email" type="email" placeholder="Enter your email address"/>
-          <input type="submit" id="submit"/>
-        </label>
-      </form>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            <label id="register-label" for="email">
+                <h2>Đăng ký dịch vụ Original NVK ngay nào!</h2>
+                <input id="email" name="email" type="email" placeholder="Nhập địa chỉ email của bạn">
+                <input type="submit" id="submit">
+            </label>
+        </form>
     </section>
     <section id="service">
-      <h2 class="service-header">eNKay Service</h2>
-      <ul class="lists">
-        <li class="list">
-          <div class="list-header">
-            <i class="fab fa-codepen"></i>
-            <h4 class="list-subtitle">Coding</h4>
-          </div>
-          <p class="list-description">Viết mã nguồn phần mềm</p>
-        </li>
-        <li class="list">
-          <div class="list-header">
-            <i class="fab fa-rocketchat"></i>
-            <h4 class="list-subtitle">Chatting</h4>
-          </div>
-          <p class="list-description">Tâm sự các vấn đề tuổi hồng</p>
-        </li>
-        <li class="list">
-          <div class="list-header">
-            <i class="fab fa-artstation"></i>
-            <h4 class="list-subtitle">Trumpet</h4>
-          </div>
-          <p class="list-description">Thổi kèn giúp vui vẻ - giải trí</p>
-        </li>
-      </ul>
-    </section>
-    <section id="how-to-work">
-      <h2 class="trumpet-embeded">
-        Tham khảo về dịch vụ thổi kèn
-      </h2>
-      <iframe id="video" src="https://www.youtube.com/embed/cxEKNpNwE6o"  frameborder="0" allowfullscreen></iframe>
-      </h2> 
-    </section>
-    <section id="pricing">
-      <div class="pricing">
-        <div class="service-pricing">
-          <div class="heading-pricing">
-            <h3>Coding</h3>
-          </div>
-          <div class="content-pricing">
-            <h4>100.000 VNĐ</h4>
-            <ul class="list-pricing">
-              <li>Coding</li>
-              <li>Debug</li>
-            </ul>
-            <button class="button-pricing">Chọn</button>
-          </div>
+        <h2 class="service-header">Dịch vụ Original NVK</h2>
+        <div>
+            <div class="service-item">
+                <div class="item-title">
+                    <i class="fab fa-codepen"></i>
+                    <h4>Coding</h4>
+                </div>
+                <p>Viết mã nguồn phần mềm</p>
+            </div>
+            <div class="service-item">
+                <div class="item-title">
+                    <i class="fab fa-rocketchat"></i>
+                    <h4>Chatting</h4>
+                </div>
+                <p>Tâm sự mỏng thâu đêm suốt sáng</p>
+            </div>  
+            <div class="service-item">
+                <div class="item-title">
+                    <i class="fa fa-gamepad"></i>
+                    <h4>Entertainment</h4>
+                </div>
+                
+                <p>Giải trí - Vui chơi - Nhậu nhẹt</p>
         </div>
-        <div class="service-pricing">
-          <div class="heading-pricing">
-            <h3>Chatting</h3>
-          </div>
-          <div class="content-pricing">
-            <h4>200.000 VNĐ</h4>
-            <ul class="list-pricing">
-              <li>Nhắn tin</li>
-              <li>Video call</li>
-            </ul>
-              <button class="button-pricing">Chọn</button>
-          </div>
-        </div>
-        <div class="service-pricing">
-          <div class="heading-pricing">
-            <h3>Trumpet</h3>
-          </div>
-          <div class="content-pricing">
-            <h4>500.000 VNĐ</h4>
-            <ul class="list-pricing">
-              <li>Thổi kèn</li>
-              <li>Múa quạt</li>
-            </ul>
-              <button class="button-pricing">Chọn</button>
-          </div>
-        </div>
-      </div>
     </section>
-    <section id="footer">
-      <div class="nav-footer">
-        <a href="#heading">Liên hệ</a>
-        <a href="#heading">Điều kiện</a>
-      </div>
-      <p>Hân hạnh được phục vụ - eNKay Service 2024</p>
+    <section id="detail">
+        <h2 class="service-header">Chi tiết</h2>
+        <div class="detail">
+            <div class="detail-item">
+                <div class="item-header">
+                    <i class="fab fa-codepen"></i>
+                    <h5>Coding - 400.000 VNĐ</h5>
+                </div>
+                <p>Hình ảnh minh họa</p>
+                <div class="image-detail">
+                    <img src="./coding/image-1.jpg" alt="Chatting" class="illustration">
+                    <img src="./coding/image-2.avif" alt="Chatting" class="illustration">
+                    <img src="./coding/image-3.jpg" alt="Chatting" class="illustration">
+                </div>
+            </div>
+            <div class="detail-item">
+                <div class="item-header">
+                    <i class="fab fa-rocketchat"></i>
+                    <h5>Chatting - 100.000 VNĐ</h5>
+                </div>  
+                <p>Hình ảnh minh họa</p>
+                <div class="image-detail">
+                    <img src="./chatting/image-1.jpeg" alt="Chatting" class="illustration">
+                    <img src="./chatting/image-2.jpg" alt="Chatting" class="illustration">
+                    <img src="./chatting/image-3.jpeg" alt="Chatting" class="illustration">
+                </div>
+            </div>  
+            <div class="detail-item">
+                <div class="item-header">
+                    <i class="fa fa-gamepad"></i>
+                    <h5>Entertainment - 200.000 VNĐ</h5>
+                </div>
+                <p>Hình ảnh minh họa</p>
+                <div class="image-detail">
+                    <img src="./Entertainment/image-1.jpg" alt="Entertainment" class="illustration">
+                    <img src="./Entertainment/image-2.jpeg" alt="Entertainment" class="illustration">
+                    <img src="./Entertainment/image-3.jpeg" alt="Entertainment" class="illustration">
+                </div>
+        </div>
     </section>
-  </body>
+    <section id="contact">
+        <h2 class="service-header">Liên hệ</h2>
+        <div>
+            <h4 class="hidden">Địa chỉ: KTX khu B, ĐHQG HCM</h4>
+            <h4 class="hidden">Điện thoại: 0858981798</h4>
+            <h4>Email: nvk.work@outlook.com </h4>
+        </div>
+    </section>
+</body>
 </html>
